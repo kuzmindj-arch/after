@@ -1,0 +1,95 @@
+{
+  "info": {
+    "_postman_id": "bacedad0-7f6e-476b-8566-e24bea7b7f3b",
+    "name": "DemoQA API Test",
+    "description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "51570999"
+  },
+  "item": [
+    {
+      "name": "GET /Books",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://demoqa.com/BookStore/v1/Books",
+          "protocol": "https",
+          "host": [
+            "demoqa",
+            "com"
+          ],
+          "path": [
+            "BookStore",
+            "v1",
+            "Books"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET /Book by ISBN",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://demoqa.com/BookStore/v1/Book?ISBN=9781449325862",
+          "protocol": "https",
+          "host": [
+            "demoqa",
+            "com"
+          ],
+          "path": [
+            "BookStore",
+            "v1",
+            "Book"
+          ],
+          "query": [
+            {
+              "key": "ISBN",
+              "value": "9781449325862"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST /User (negative test)",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"userName\": \"testuser123\",\r\n  \"password\": \"Test@123456\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://demoqa.com/Account/v1/User",
+          "protocol": "https",
+          "host": [
+            "demoqa",
+            "com"
+          ],
+          "path": [
+            "Account",
+            "v1",
+            "User"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
