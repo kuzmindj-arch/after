@@ -30,9 +30,9 @@
 
 | Приоритет | Описание | Ссылка |
 |-----------|----------|--------|
-| 🔴 **Blocker** | Регистрация пользователя невозможна | [Смотреть](./bug-registration-blocker/bug-registration-blocker.md) |
-| 🟠 **High** | При пустых полях нет текстового сообщения об ошибке | [Смотреть](./bug-2-empty-fields-no-message/bug-2-empty-fields-no-message.md) |
-| 🟡 **Medium** | Сообщения об ошибке исчезают за <1 секунды | [Смотреть](./bug-3-flash-messages/bug-3-flash-messages.md) |
+| 🔴 **Blocker** | Регистрация пользователя невозможна | [Смотреть](./bug-registration-blocker/bug-registration-blocker.md)|
+| 🟠 **High** | При пустых полях нет текстового сообщения об ошибке | [Смотреть](./bug-2-empty-fields-no-message/bug-2-empty-fields-no-message.md)  |
+| 🟡 **Medium** | Сообщения об ошибке исчезают за <1 секунды | [Смотреть](./bug-3-flash-messages/bug-3-flash-messages.md)|
 | 🟡 **Medium** | Баннер съезжает на мобильной версии | [Смотреть](./bug-1/bug-report.md) |
 | 🟢 **Low** | Пустой рекламный виджет на всех страницах | [Смотреть](./bug-2/bug-2.md) |
 
@@ -56,7 +56,7 @@
 
 | Тип | Описание | Ссылка |
 |-----|----------|--------|
-| Чек-лист | Тестирование формы регистрации | [Смотреть](./test-cases/registration-checklist.md) |
+| Чек-лист | Тестирование формы регистрации | [Смотреть](./test-cases/registration-checklist.md.md)|
 
 ---
 С уважением, 
