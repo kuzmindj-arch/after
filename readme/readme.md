@@ -28,22 +28,23 @@
 
 Все баги найдены на сайте [demoqa.com](https://demoqa.com/register) в рамках учебного проекта.
 
+
 | Приоритет | Описание | Ссылка |
 |-----------|----------|--------|
-| 🔴 **Blocker** | Регистрация пользователя невозможна | [Смотреть](./bug-registration-blocker/bug-registration-blocker.md)|
-| 🟠 **High** | При пустых полях нет текстового сообщения об ошибке | [Смотреть](./bug-2-empty-fields-no-message/bug-2-empty-fields-no-message.md)  |
-| 🟡 **Medium** | Сообщения об ошибке исчезают за <1 секунды | [Смотреть](./bug-3-flash-messages/bug-3-flash-messages.md)|
-| 🟡 **Medium** | Баннер съезжает на мобильной версии | [Смотреть](./bug-1/bug-report.md) |
-| 🟢 **Low** | Пустой рекламный виджет на всех страницах | [Смотреть](./bug-2/bug-2.md) |
+| 🔴 **Blocker** | Регистрация пользователя невозможна | [Смотреть](https://github.com/kuzmindj-arch/after/blob/main/bug-registration-blocker/bug-registration-blocker.md) |
+| 🟠 **High** | При пустых полях нет текстового сообщения | [Смотреть](https://github.com/kuzmindj-arch/after/blob/main/bug-2-empty-fields-no-message/bug-2-empty-fields-no-message.md) |
+| 🟡 **Medium** | Сообщения об ошибке исчезают за <1 секунды | [Смотреть](https://github.com/kuzmindj-arch/after/blob/main/bug-3-flash-messages/bug-3-flash-messages.md) |
+| 🟡 **Medium** | Баннер съезжает на мобильной версии | [Смотреть](https://github.com/kuzmindj-arch/after/blob/main/bug-1/bug-report.md) |
+| 🟢 **Low** | Пустой рекламный виджет | [Смотреть](https://github.com/kuzmindj-arch/after/blob/main/bug-2/bug-2.md) |
 
 ---
 
 ## 📡 API тестирование
 
-| Описание | Файл |
-|----------|------|
-| Postman коллекция для DemoQA API | [Скачать JSON](./api-tests/DemoQA-API-Collection.json) |
-| Документация API тестов | [Смотреть](./api-tests/README.md) |
+| Описание | Ссылка |
+|----------|--------|
+| Postman коллекция | [Скачать JSON](https://github.com/kuzmindj-arch/after/blob/main/api-tests/DemoQA-API-Collection.json) |
+| Документация API | [Смотреть](https://github.com/kuzmindj-arch/after/blob/main/api-tests/README.md) |
 
 ### Примеры API-тестов:
 - `GET /Books` — получить список книг
@@ -54,14 +55,16 @@
 
 ## 📋 Тестовая документация
 
-| Тип | Описание | Ссылка |
-|-----|----------|--------|
-| Чек-лист | Тестирование формы регистрации | [Смотреть](./test-cases/registration-checklist.md.md)|
+| Описание | Ссылка |
+|----------|--------|
+| Чек-лист регистрации | [Смотреть](https://github.com/kuzmindj-arch/after/blob/main/test-cases/registration-checklist.md) |
 
 ---
 С уважением, 
 Леонид Кузьмин
 ---
 ## 📂 Структура портфолио
+## 📬 Контакты
 
+- **GitHub:** [kuzmindj-arch](https://github.com/kuzmindj-arch)
 
