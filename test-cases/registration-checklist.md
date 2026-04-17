@@ -76,7 +76,7 @@
 
 | # | Браузер/ОС | Статус |
 |---|------------|--------|
-| 6.1 | Chrome (Windows) | ⬜ |
+| 6.1 | Chrome (Windows) | ✅ |
 | 6.2 | Firefox (Windows) | ⬜ |
 | 6.3 | Safari (macOS) | ⬜ |
 | 6.4 | Edge (Windows) | ⬜ |
